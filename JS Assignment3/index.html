@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section class="form_wrapper">
+            <header>
+                <input id="display" class="textfield" type="text" name="display" value="0" disabled contenteditable="false" >
+            </header>
+            <section class="firstRowSection">
+                <span class="buttons firstRow" id="clear">AC</span>
+                <span class="buttons firstRow" id="invert">⁺∕₋</span>
+                <span class="buttons firstRow displayButton" value="/100">%</span>
+            </section>
+            <section id="numbers">
+                <span class="buttons displayButton" value="7">7</span>
+                <span class="buttons displayButton" value="8">8</span>
+                <span class="buttons displayButton" value="9">9</span>
+                <span class="buttons displayButton" value="4">4</span>
+                <span class="buttons displayButton" value="5">5</span>
+                <span class="buttons displayButton" value="6">6</span>
+                <span class="buttons displayButton" value="1">1</span>
+                <span class="buttons displayButton" value="2">2</span>
+                <span class="buttons displayButton" value="3">3</span>
+            </section>
+            <section class="lastRowSection">
+                <span class="buttons zero displayButton" value="0">0</span>
+                <span class="buttons displayButton" value=".">.</span>
+            </section>
+            <aside class="asideSection">
+                <span class="buttons asideButtons displayButton" value="/">÷</span>
+                <span class="buttons asideButtons displayButton" value="*">✕</span>
+                <span class="buttons asideButtons displayButton" value="-">-</span>
+                <span class="buttons asideButtons displayButton" value="+">+</span>
+                <span class="buttons asideButtons" id="result">=</span>
+            </aside>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+*{
+    padding:0;
+    margin:0;
+}
+    body {
+        text-align:center;
+    }
+    .form_wrapper {
+        margin: 5% 35%;
+        width:405px;
+        background-color:rgb(90 89 89);
+        position: relative;
+        height: 446px;
+    }
+
+    .firstRowSection{
+        width: 98%;
+    }
+
+    #numbers{
+        position: absolute;
+        width: 98%;
+        float: left;
+        bottom: 15.7%;
+    }
+    
+    .lastRowSection{
+        width: 98%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .asideSection{
+        position: absolute;
+        width: 26%;
+        right: 0.5%;
+    }
+
+    .textfield {
+        width:100%;
+        height:15%;
+        font-size:3em;
+        padding: 2%;
+        color:white;
+        text-align: right; 
+        padding-left:50px;
+        background-color:rgb(90 89 89);
+        border: none;
+    }
+    
+    .buttons {
+        float: left;
+        width:24.5%;
+        height:7%;
+        font-weight:bold;
+        font-size:2em;
+        background-color:rgb(136 135 135);
+        color:white;
+        border: 0.5px solid rgb(90 89 89);
+        padding: 5% 0;
+    }
+
+    .firstRow{
+        background-color:rgb(103 103 103);
+    }
+
+    .asideButtons{
+        background-color: orange;
+        width: 100%;
+        padding: 18.4 0;
+    }
+
+    .zero{
+        width: 49.5%;
+    }
+    

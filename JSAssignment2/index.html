@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+    <body>
+        <header><h1>todos</h1></header>
+        <section class="listSection">
+            <header class="listHeader">
+                <input type="checkbox" id="All">
+                <label id="AllLabel" for="All" class="All">❯</label>
+                <input type="text" id="listInput" placeholder="What needs to be done?">
+            </header>
+            <section>
+                <ul id="list"></ul>
+            </section>
+            <footer class="todoFooter">
+                <span id="count"></span>
+                <ul class="filters">
+                    <li class="filterItem" id="allFilter">All</li>
+                    <li class="filterItem" id="activeFilter">Active</li>
+                    <li class="filterItem" id="completedFilter">Completed</li>
+                    <button class="clear" id="clear">Clear Completed</button>
+                </ul>
+            </footer>
+        </section>
+        <div style="display:none" id="listItems">
+            <li>
+                <div class="view">
+                    <div class="round">
+                        <input type="checkbox" id="checkbox_ITEM_NAME">
+                        <label for="checkbox_ITEM_NAME"></label>
+                    </div>
+                    <label id="ITEM_ID" class="text">ITEM_NAME</label>
+                    <button class="remove" id="remove_ITEM_NAME">✕</button>
+                </div>
+            </li>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
